@@ -11,6 +11,8 @@
 Trivia application that provides 10 questions to be answered by the user. The basic workflow is:
 
 ```
+                 ─────
+                v     |
 Home Screen -> Questions -> Results page
     ^                           │
     │    PLAY AGAIN Button      │
