@@ -12,6 +12,6 @@ module.exports = {
       version: 'detect', // Tells eslint-plugin-react to automatically detect the version of React to use
     },
   },
-  ignorePatterns: [],
+  ignorePatterns: ['.eslintrc.js', 'babel.config.js'],
   rules: {},
 };
