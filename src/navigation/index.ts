@@ -1,3 +1,3 @@
-import Navigator from './Navigator';
+import MainNavigator from './MainNavigator';
 
-export default Navigator;
+export default MainNavigator;
