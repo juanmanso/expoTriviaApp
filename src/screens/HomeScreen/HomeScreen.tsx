@@ -10,7 +10,6 @@ export interface IHomeScreenProps {
 }
 
 const handlePressBeginButton = (navigation: StackNavigationProp<NavigationParamList, 'Home'>) => {
-  console.log(`clicked begin button`);
   navigation.navigate('Quiz', { count: 0 });
 };
 

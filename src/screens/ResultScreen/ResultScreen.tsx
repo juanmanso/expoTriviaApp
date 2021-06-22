@@ -9,9 +9,8 @@ export interface IResultScreenProps {
   navigation: StackNavigationProp<NavigationParamList, 'Result'>;
 }
 
-const handleOnPressRestartButton = (navigation: StackNavigationProp<NavigationParamList, 'Result'>) => {
-  console.log(`restart`);
-  navigation.popToTop();
+const handleOnPressRestartButton = (nav: StackNavigationProp<NavigationParamList, 'Result'>) => {
+  nav.popToTop();
 };
 
 const ResultScreen: React.FC<IResultScreenProps> = ({ navigation }) => (

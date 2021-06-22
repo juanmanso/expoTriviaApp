@@ -12,12 +12,10 @@ export interface IQuizScreenProps {
 }
 
 const handlePressNextQuestion = (nav: StackNavigationProp<NavigationParamList, 'Quiz'>, count: number) => {
-  console.log(`clicked with count: ${count}`);
   nav.navigate('Quiz', { count: count + 1 });
 };
 
 const handlePressSeeResult = (nav: StackNavigationProp<NavigationParamList, 'Quiz'>) => {
-  console.log(`clicked to see results`);
   nav.navigate('Result');
 };
 
